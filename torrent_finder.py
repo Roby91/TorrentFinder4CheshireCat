@@ -24,6 +24,7 @@ def get_torrent(torrent_to_search, cat):
     # 1337x.gd
         
     torrents = py1337x(proxy='1337xx.to', cache='py1337xCache', cacheTime=500)
+    torrent_to_search = torrent_to_search.replace("torrent", "")
     print("Torrent to search: " + str(torrent_to_search))
     torrents_found = torrents.search(torrent_to_search)["items"]
     print("Torrents found: " + str(torrents_found))
