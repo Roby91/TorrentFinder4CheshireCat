@@ -1,0 +1,10 @@
+{
+    "name": "Torrent Finder",
+    "version": "0.0.2",
+    "description": "Find a torrent with cheshire cat.",
+    "author_name": "Roberto Bello",
+    "author_url": "https://github.com/Roby91",
+    "plugin_url": "https://github.com/Roby91/torrent_finder",
+    "tags": "cat, torrent finder, plugin",
+    "thumb": "https://raw.githubusercontent.com/Roby91/torrent_finder/main/img/thumb.png"
+}
